@@ -1,6 +1,8 @@
 QT += core gui
 QT += widgets
 
+INCLUDEPATH +=$$PWD
+
 TARGET = renvideo
 TEMPLATE = app
 
