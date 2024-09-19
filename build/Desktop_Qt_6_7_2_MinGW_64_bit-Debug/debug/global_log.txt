@@ -1,0 +1,233 @@
+2024-09-19 01:21:04 - -e- Error renaming: capítulo 01x01 (Afro Samurai).mp4
+2024-09-19 01:41:03 - -e- Error renaming: capítulo 01x01 (Isekai Meikyuu de Harem wo).ts
+2024-09-19 01:41:03 - -e- Error renaming: capítulo 01x02 (Isekai Meikyuu de Harem wo).ts
+2024-09-19 01:41:03 - -e- Error renaming: capítulo 01x03 (Isekai Meikyuu de Harem wo).ts
+2024-09-19 01:41:03 - -e- Error renaming: capítulo 01x07 (Isekai Meikyuu de Harem wo).ts
+2024-09-19 01:41:03 - -e- Error renaming: capítulo 01x08 (Isekai Meikyuu de Harem wo).ts
+2024-09-19 01:41:03 - -e- Error renaming: capítulo 01x09 (Isekai Meikyuu de Harem wo).ts
+2024-09-19 01:41:03 - -e- Error renaming: capítulo 01x10 (Isekai Meikyuu de Harem wo).ts
+2024-09-19 01:41:03 - -e- Error renaming: capítulo 01x11 (Isekai Meikyuu de Harem wo).ts
+2024-09-19 01:41:03 - -e- Error renaming: capítulo 01x12 (Isekai Meikyuu de Harem wo).ts
+2024-09-19 01:41:03 - -e- Error renaming: capítulo 04x02 (Isekai Meikyuu de Harem wo).ts
+2024-09-19 01:41:03 - -e- Error renaming: capítulo 05x02 (Isekai Meikyuu de Harem wo).ts
+2024-09-19 01:41:03 - -e- Error renaming: capítulo 06x02 (Isekai Meikyuu de Harem wo).ts
+2024-09-19 01:41:03 - -d- Archivo de log eliminado: C:/Mario/videos/anime/Isekai Meikyuu de Harem wo/rename_log.txt
+2024-09-19 01:47:50 - -i- El archivo ya tiene el nombre correcto: capítulo 01x01 (Isekai Meikyuu de Harem wo).ts
+2024-09-19 01:47:50 - -i- El archivo ya tiene el nombre correcto: capítulo 01x02 (Isekai Meikyuu de Harem wo).ts
+2024-09-19 01:47:50 - -i- El archivo ya tiene el nombre correcto: capítulo 01x03 (Isekai Meikyuu de Harem wo).ts
+2024-09-19 01:47:50 - -i- El archivo ya tiene el nombre correcto: capítulo 01x07 (Isekai Meikyuu de Harem wo).ts
+2024-09-19 01:47:50 - -i- El archivo ya tiene el nombre correcto: capítulo 01x08 (Isekai Meikyuu de Harem wo).ts
+2024-09-19 01:47:50 - -i- El archivo ya tiene el nombre correcto: capítulo 01x09 (Isekai Meikyuu de Harem wo).ts
+2024-09-19 01:47:50 - -i- El archivo ya tiene el nombre correcto: capítulo 01x10 (Isekai Meikyuu de Harem wo).ts
+2024-09-19 01:47:50 - -i- El archivo ya tiene el nombre correcto: capítulo 01x11 (Isekai Meikyuu de Harem wo).ts
+2024-09-19 01:47:50 - -i- El archivo ya tiene el nombre correcto: capítulo 01x12 (Isekai Meikyuu de Harem wo).ts
+2024-09-19 01:47:50 - -i- El archivo ya tiene el nombre correcto: capítulo 04x02 (Isekai Meikyuu de Harem wo).ts
+2024-09-19 01:47:50 - -i- El archivo ya tiene el nombre correcto: capítulo 05x02 (Isekai Meikyuu de Harem wo).ts
+2024-09-19 01:47:50 - -i- El archivo ya tiene el nombre correcto: capítulo 06x02 (Isekai Meikyuu de Harem wo).ts
+2024-09-19 01:58:34 - -i- El archivo ya tiene el nombre correcto: capítulo 01x01 (Isekai Meikyuu de Harem wo).ts
+2024-09-19 01:58:34 - -i- El archivo ya tiene el nombre correcto: capítulo 01x02 (Isekai Meikyuu de Harem wo).ts
+2024-09-19 01:58:34 - -i- El archivo ya tiene el nombre correcto: capítulo 01x03 (Isekai Meikyuu de Harem wo).ts
+2024-09-19 01:58:34 - -i- El archivo ya tiene el nombre correcto: capítulo 01x07 (Isekai Meikyuu de Harem wo).ts
+2024-09-19 01:58:34 - -i- El archivo ya tiene el nombre correcto: capítulo 01x08 (Isekai Meikyuu de Harem wo).ts
+2024-09-19 01:58:34 - -i- El archivo ya tiene el nombre correcto: capítulo 01x09 (Isekai Meikyuu de Harem wo).ts
+2024-09-19 01:58:34 - -i- El archivo ya tiene el nombre correcto: capítulo 01x10 (Isekai Meikyuu de Harem wo).ts
+2024-09-19 01:58:34 - -i- El archivo ya tiene el nombre correcto: capítulo 01x11 (Isekai Meikyuu de Harem wo).ts
+2024-09-19 01:58:34 - -i- El archivo ya tiene el nombre correcto: capítulo 01x12 (Isekai Meikyuu de Harem wo).ts
+2024-09-19 01:58:34 - -i- El archivo ya tiene el nombre correcto: capítulo 04x02 (Isekai Meikyuu de Harem wo).ts
+2024-09-19 01:58:34 - -i- El archivo ya tiene el nombre correcto: capítulo 05x02 (Isekai Meikyuu de Harem wo).ts
+2024-09-19 01:58:34 - -i- El archivo ya tiene el nombre correcto: capítulo 06x02 (Isekai Meikyuu de Harem wo).ts
+2024-09-19 02:00:28 - -i- El archivo ya tiene el nombre correcto: capítulo 01x01 (Isekai Meikyuu de Harem wo).ts
+2024-09-19 02:00:28 - -i- El archivo ya tiene el nombre correcto: capítulo 01x02 (Isekai Meikyuu de Harem wo).ts
+2024-09-19 02:00:28 - -i- El archivo ya tiene el nombre correcto: capítulo 01x03 (Isekai Meikyuu de Harem wo).ts
+2024-09-19 02:00:28 - -i- El archivo ya tiene el nombre correcto: capítulo 01x07 (Isekai Meikyuu de Harem wo).ts
+2024-09-19 02:00:28 - -i- El archivo ya tiene el nombre correcto: capítulo 01x08 (Isekai Meikyuu de Harem wo).ts
+2024-09-19 02:00:28 - -i- El archivo ya tiene el nombre correcto: capítulo 01x09 (Isekai Meikyuu de Harem wo).ts
+2024-09-19 02:00:28 - -i- El archivo ya tiene el nombre correcto: capítulo 01x10 (Isekai Meikyuu de Harem wo).ts
+2024-09-19 02:00:28 - -i- El archivo ya tiene el nombre correcto: capítulo 01x11 (Isekai Meikyuu de Harem wo).ts
+2024-09-19 02:00:28 - -i- El archivo ya tiene el nombre correcto: capítulo 01x12 (Isekai Meikyuu de Harem wo).ts
+2024-09-19 02:00:28 - -i- El archivo ya tiene el nombre correcto: capítulo 04x02 (Isekai Meikyuu de Harem wo).ts
+2024-09-19 02:00:28 - -i- El archivo ya tiene el nombre correcto: capítulo 05x02 (Isekai Meikyuu de Harem wo).ts
+2024-09-19 02:00:28 - -i- El archivo ya tiene el nombre correcto: capítulo 06x02 (Isekai Meikyuu de Harem wo).ts
+------ [2024-09-19 02:02:46] --------
+-i- El archivo ya tiene el nombre correcto: capítulo 01x01 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x02 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x03 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x07 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x08 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x09 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x10 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x11 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x12 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 04x02 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 05x02 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 06x02 (Isekai Meikyuu de Harem wo).ts
+------ [2024-09-19 02:03:50] --------
+-i- El archivo ya tiene el nombre correcto: capítulo 01x01 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x02 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x03 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x07 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x08 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x09 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x10 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x11 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x12 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 04x02 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 05x02 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 06x02 (Isekai Meikyuu de Harem wo).ts
+------ [2024-09-19 02:07:42] --------
+-i- El archivo ya tiene el nombre correcto: capítulo 01x01 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x02 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x03 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x07 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x08 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x09 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x10 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x11 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x12 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 04x02 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 05x02 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 06x02 (Isekai Meikyuu de Harem wo).ts
+------ [2024-09-19 02:13:06] --------
+-i- El archivo ya tiene el nombre correcto: capítulo 01x01 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x02 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x03 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x07 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x08 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x09 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x10 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x11 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x12 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 04x02 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 05x02 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 06x02 (Isekai Meikyuu de Harem wo).ts
+------ [2024-09-19 02:15:01] --------
+-i- El archivo ya tiene el nombre correcto: capítulo 01x01 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x02 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x03 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x07 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x08 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x09 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x10 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x11 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x12 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 04x02 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 05x02 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 06x02 (Isekai Meikyuu de Harem wo).ts
+------ [2024-09-19 02:17:15] --------
+-i- El archivo ya tiene el nombre correcto: capítulo 01x01 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x02 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x03 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x07 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x08 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x09 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x10 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x11 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x12 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 04x02 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 05x02 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 06x02 (Isekai Meikyuu de Harem wo).ts
+------ [2024-09-19 02:22:21] --------
+-i- El archivo ya tiene el nombre correcto: capítulo 01x01 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x02 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x03 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x07 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x08 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x09 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x10 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x11 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x12 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 04x02 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 05x02 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 06x02 (Isekai Meikyuu de Harem wo).ts
+------ [2024-09-19 02:23:22] --------
+-i- El archivo ya tiene el nombre correcto: capítulo 01x01 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x02 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x03 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x07 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x08 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x09 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x10 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x11 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x12 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 04x02 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 05x02 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 06x02 (Isekai Meikyuu de Harem wo).ts
+------ [2024-09-19 02:23:49] --------
+-i- El archivo ya tiene el nombre correcto: capítulo 01x01 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x02 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x03 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x07 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x08 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x09 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x10 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x11 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x12 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 04x02 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 05x02 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 06x02 (Isekai Meikyuu de Harem wo).ts
+------ [2024-09-19 02:29:48] --------
+-i- El archivo ya tiene el nombre correcto: capítulo 01x01 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x02 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x03 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x07 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x08 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x09 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x10 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x11 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x12 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 04x02 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 05x02 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 06x02 (Isekai Meikyuu de Harem wo).ts
+------ [2024-09-19 02:34:38] --------
+-i- El archivo ya tiene el nombre correcto: capítulo 01x01 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x02 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x03 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x07 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x08 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x09 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x10 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x11 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x12 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 04x02 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 05x02 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 06x02 (Isekai Meikyuu de Harem wo).ts
+-d- Archivo de log eliminado: C:/Mario/videos/anime/Isekai Meikyuu de Harem wo/rename_log.txt
+------ [2024-09-19 02:35:36] --------
+-i- El archivo ya tiene el nombre correcto: capítulo 01x01 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x02 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x03 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x07 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x08 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x09 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x10 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x11 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x12 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 04x02 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 05x02 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 06x02 (Isekai Meikyuu de Harem wo).ts
+------ [2024-09-19 13:36:47] --------
+-i- El archivo ya tiene el nombre correcto: capítulo 01x01 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x02 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x03 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x07 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x08 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x09 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x10 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x11 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x12 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 04x02 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 05x02 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 06x02 (Isekai Meikyuu de Harem wo).ts
+------ [2024-09-19 13:38:45] --------
+-i- El archivo ya tiene el nombre correcto: capítulo 01x01 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x02 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x03 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x07 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x08 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x09 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x10 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x11 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 01x12 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 04x02 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 05x02 (Isekai Meikyuu de Harem wo).ts
+-i- El archivo ya tiene el nombre correcto: capítulo 06x02 (Isekai Meikyuu de Harem wo).ts
