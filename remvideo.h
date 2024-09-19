@@ -31,6 +31,10 @@ private slots:
     void on_eimg_clicked(bool checked);
     void on_elog_clicked(bool checked);
 
+    void on_noe_clicked(bool checked);
+
+    void on_limpiar_clicked();
+
 private:
     Ui::RemVideo *ui;
     void renameVideosInFolder(const QString& folderPath, int seasonNumber, const QString& customName, bool deleteImages, bool deleteNfoFiles, bool deleteLog);

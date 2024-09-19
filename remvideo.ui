@@ -136,6 +136,13 @@
       <item>
        <widget class="QTextEdit" name="logTextEdit"/>
       </item>
+      <item>
+       <widget class="QPushButton" name="limpiar">
+        <property name="text">
+         <string>Limpiar</string>
+        </property>
+       </widget>
+      </item>
      </layout>
     </item>
    </layout>

@@ -35,105 +35,147 @@ void RemVideo::renameVideosInFolder(const QString& folderPath, int seasonNumber,
     QDirIterator it(folderPath, videoExtensions + (deleteImages ? imageExtensions : QStringList()) + (deleteNfoFiles ? QStringList("*.nfo") : QStringList()), QDir::Files | QDir::NoSymLinks, QDirIterator::Subdirectories);
     QRegularExpression re("(\\d+)");
 
-    QString logFilePath = folderPath + "/rename_log.txt";
-    QFile logFile(logFilePath);
-    if (!logFile.open(QIODevice::Append | QIODevice::Text)) {
-        appendToLog(QString("-e- No se pudo abrir el archivo de log"));
-        return;
-    }
-    QTextStream logStream(&logFile);
+    QMap<QString, int> logCounts;  // Mapa para contar los log entries
+
+    bool shouldResetLogCounts = false;
 
     while (it.hasNext()) {
         QFileInfo fileInfo(it.next());
         QString suffix = fileInfo.suffix().toLower();
-        
-        // Eliminar imágenes si deleteImages es verdadero
-        if (deleteImages && imageExtensions.contains("*." + suffix)) {
-            if (QFile::remove(fileInfo.filePath())) {
-                QString logEntry = QString("-d- Imagen eliminada: %1").arg(fileInfo.fileName());
-                appendToLog(logEntry);
-                logStream << logEntry << "\n";
-            } else {
-                QString logEntry = QString("-e- Error al eliminar imagen: %1").arg(fileInfo.fileName());
-                appendToLog(logEntry);
-                logStream << logEntry << "\n";
+        QString currentFolder = fileInfo.absolutePath();
+        QString logFilePath = currentFolder + "/rename_log.txt";
+
+        // Leer el archivo de log para verificar el último separador
+        QString lastSeparatorTimeStr;
+        QFile logFile(logFilePath);
+        if (logFile.exists() && logFile.open(QIODevice::ReadOnly | QIODevice::Text)) {
+            while (!logFile.atEnd()) {
+                QString line = logFile.readLine();
+                if (line.startsWith("------")) {
+                    lastSeparatorTimeStr = line;
+                }
             }
-            continue;
-        }
-        
-        // Eliminar archivos .nfo si deleteNfoFiles es verdadero
-        if (deleteNfoFiles && suffix == "nfo") {
-            if (QFile::remove(fileInfo.filePath())) {
-                QString logEntry = QString("-d- Archivo NFO eliminado: %1").arg(fileInfo.fileName());
-                appendToLog(logEntry);
-                logStream << logEntry << "\n";
-            } else {
-                QString logEntry = QString("-e- Error al eliminar archivo NFO: %1").arg(fileInfo.fileName());
-                appendToLog(logEntry);
-                logStream << logEntry << "\n";
-            }
-            continue;
+            logFile.close();
         }
 
-        // Continuar con el renombrado de archivos de video
-        QString baseName = fileInfo.completeBaseName();
-        auto matchIt = re.globalMatch(baseName);
+        // Verificar si existe un separador y comparar la fecha y hora
+        QDateTime lastSeparatorTime;
+        if (!lastSeparatorTimeStr.isEmpty()) {
+            QString dateTimeStr = lastSeparatorTimeStr.mid(8, 19);
+            lastSeparatorTime = QDateTime::fromString(dateTimeStr, "yyyy-MM-dd hh:mm:ss");
+        }
 
-        QString chapterNumber = "01";
-        QString detectedSeason = seasonNumber > 0 ? QString::number(seasonNumber) : "01";
+        QDateTime currentTime = QDateTime::currentDateTime();
+        bool shouldAddSeparator = lastSeparatorTime.isValid() ? lastSeparatorTime.secsTo(currentTime) > 10 : true;
 
-        if (matchIt.hasNext()) {
-            auto match = matchIt.next();
-            if (seasonNumber == 0) {
-                detectedSeason = match.captured(1);
+        if (logFile.open(QIODevice::Append | QIODevice::Text)) {
+            if (shouldAddSeparator) {
+                QString separator = QString("------ [%1] --------\n").arg(currentTime.toString("yyyy-MM-dd hh:mm:ss"));
+                logFile.write(separator.toUtf8());
+                // Mostrar el separador en la interfaz de usuario solo una vez
+                ui->logTextEdit->append(separator);
+                shouldResetLogCounts = true; // Marcar para reiniciar después de procesar el archivo actual
             }
+
+            // Lógica de eliminación de imágenes y archivos NFO...
+            if (deleteImages && imageExtensions.contains("*." + suffix)) {
+                QString logEntry;
+                if (QFile::remove(fileInfo.filePath())) {
+                    logEntry = QString("-d- Imagen eliminada: %1").arg(fileInfo.fileName());
+                } else {
+                    logEntry = QString("-e- Error al eliminar imagen: %1").arg(fileInfo.fileName());
+                }
+                logFile.write((logEntry + "\n").toUtf8());
+                logCounts[logEntry.left(3)]++;
+                logFile.close();
+                continue;
+            }
+
+            // Eliminar archivos .nfo si deleteNfoFiles es verdadero
+            if (deleteNfoFiles && suffix == "nfo") {
+                QString logEntry;
+                if (QFile::remove(fileInfo.filePath())) {
+                    logEntry = QString("-d- Archivo NFO eliminado: %1").arg(fileInfo.fileName());
+                } else {
+                    logEntry = QString("-e- Error al eliminar archivo NFO: %1").arg(fileInfo.fileName());
+                }
+                logFile.write((logEntry + "\n").toUtf8());
+                logCounts[logEntry.left(3)]++;
+                logFile.close();
+                continue;
+            }
+
+            // Continuar con el renombrado de archivos de video
+            QString baseName = fileInfo.completeBaseName();
+            auto matchIt = re.globalMatch(baseName);
+
+            QString chapterNumber = "01";
+            QString detectedSeason = seasonNumber > 0 ? QString::number(seasonNumber) : "01";
 
             if (matchIt.hasNext()) {
-                chapterNumber = matchIt.next().captured(1);
-            } else {
-                chapterNumber = detectedSeason;
-                detectedSeason = seasonNumber > 0 ? QString::number(seasonNumber) : "01";
+                auto match = matchIt.next();
+                if (seasonNumber == 0) {
+                    detectedSeason = match.captured(1);
+                }
+
+                if (matchIt.hasNext()) {
+                    chapterNumber = matchIt.next().captured(1);
+                } else {
+                    chapterNumber = detectedSeason;
+                    detectedSeason = seasonNumber > 0 ? QString::number(seasonNumber) : "01";
+                }
             }
-        }
 
-        QString finalName = QString("capítulo %1x%2 (%3).%4")
-                                .arg(detectedSeason, 2, '0')
-                                .arg(chapterNumber, 2, '0')
-                                .arg(!customName.isEmpty() ? customName : fileInfo.dir().dirName())
-                                .arg(fileInfo.suffix());
+            QString finalName = QString("capítulo %1x%2 (%3).%4")
+                                    .arg(detectedSeason, 2, '0')
+                                    .arg(chapterNumber, 2, '0')
+                                    .arg(!customName.isEmpty() ? customName : fileInfo.dir().dirName())
+                                    .arg(fileInfo.suffix());
 
-        QString newFilePath = fileInfo.absolutePath() + "/" + finalName;
+            QString newFilePath = fileInfo.absolutePath() + "/" + finalName;
 
-        if (fileInfo.filePath() != newFilePath) {
-            if (QFile::rename(fileInfo.filePath(), newFilePath)) {
-                QString logEntry = QString("-n- %1 -> %2").arg(fileInfo.fileName(), finalName);
-                appendToLog(logEntry);
-                logStream << logEntry << "\n";
+            QString logEntry;
+            if (fileInfo.filePath() != newFilePath) {
+                if (QFile::rename(fileInfo.filePath(), newFilePath)) {
+                    logEntry = QString("-n- %1 -> %2").arg(fileInfo.fileName(), finalName);
+                } else {
+                    logEntry = QString("-e- Error renaming: %1").arg(fileInfo.fileName());
+                }
             } else {
-                QString logEntry = QString("-e- Error renaming: %1").arg(fileInfo.fileName());
-                appendToLog(logEntry);
-                logStream << logEntry << "\n";
+                logEntry = QString("-i- El archivo ya tiene el nombre correcto: %1").arg(fileInfo.fileName());
+            }
+
+            logFile.write((logEntry + "\n").toUtf8());
+            logCounts[logEntry.left(3)]++;
+            logFile.close();
+
+            // Eliminar el archivo de log si deleteLog es verdadero
+            if (deleteLog) {
+                if (QFile::remove(logFilePath)) {
+                    QString logEntry = QString("-d- Archivo de log eliminado: %1").arg(logFilePath);
+                    appendToLog(logEntry);
+                } else {
+                    QString logEntry = QString("-e- Error al eliminar archivo de log: %1").arg(logFilePath);
+                    appendToLog(logEntry);
+                }
             }
         } else {
-            QString logEntry = QString("-i- El archivo ya tiene el nombre correcto: %1").arg(fileInfo.fileName());
+            QString logEntry = QString("-e- No se pudo abrir el archivo de log en %1 para escritura").arg(currentFolder);
             appendToLog(logEntry);
-            logStream << logEntry << "\n";
         }
-    }
 
-    logFile.close();
-
-    // Eliminar el archivo de log si deleteLog es verdadero
-    if (deleteLog) {
-        if (QFile::remove(logFilePath)) {
-            QString logEntry = QString("-d- Archivo de log eliminado: %1").arg(logFilePath);
-            appendToLog(logEntry);
-        } else {
-            QString logEntry = QString("-e- Error al eliminar archivo de log: %1").arg(logFilePath);
-            appendToLog(logEntry);
+        // Reiniciar el conteo después de procesar todos los archivos en el lote actual
+        if (shouldResetLogCounts) {
+            ui->logTextEdit->append("------ [Conteo de Etiquetas] --------");
+            for (auto it = logCounts.begin(); it != logCounts.end(); ++it) {
+                ui->logTextEdit->append(QString("%1 -> %2").arg(it.key()).arg(it.value()));
+            }
+            logCounts.clear();  // Reiniciar el conteo para el próximo uso
+            shouldResetLogCounts = false;
         }
     }
 }
+
 
 void RemVideo::restoreVideosInFolder(const QString& folderPath)
 {
@@ -196,19 +238,18 @@ void RemVideo::appendToLog(const QString& logText)
     QDateTime currentTime = QDateTime::currentDateTime();
     QString logFilePath = QCoreApplication::applicationDirPath() + "/global_log.txt";
     QFile globalLogFile(logFilePath);
-    
+
+    // Abrir el archivo de log
     if (globalLogFile.open(QIODevice::Append | QIODevice::Text)) {
         QTextStream globalLogStream(&globalLogFile);
 
-        // Agregar el separador al archivo de log si han pasado más de 10 segundos
-        if (lastLogTime.isNull() || lastLogTime.secsTo(currentTime) > 10) {
-            QString separator = QString("------ [%1] --------\n").arg(currentTime.toString("yyyy-MM-dd hh:mm:ss"));
-            globalLogStream << separator;
-            lastLogTime = currentTime;
-        }
-
-        // Agregar el mensaje de log al archivo
+        // Escribir el mensaje de log
         globalLogStream << logText << "\n";
+
+        // Verificar que el texto se escribió correctamente
+        if (!globalLogStream.status() == QTextStream::Ok) {
+            qDebug() << "Error al escribir el logText en el archivo de log";
+        }
 
         globalLogFile.close();
     } else {
@@ -218,6 +259,7 @@ void RemVideo::appendToLog(const QString& logText)
     // Agregar solo el mensaje de log a la interfaz de usuario
     ui->logTextEdit->append(logText);
 }
+
 
 void RemVideo::on_renombrar_clicked()
 {
@@ -261,5 +303,19 @@ void RemVideo::on_elog_clicked(bool checked)
     }else if(!checked&&!ui->enfo->isChecked()&&!ui->eimg->isChecked()){
         ui->noe->setChecked(true);
     }
+}
+
+void RemVideo::on_noe_clicked(bool checked)
+{
+    if (checked){
+        ui->enfo->setChecked(false);
+        ui->eimg->setChecked(false);
+        ui->elog->setChecked(false);
+    }
+}
+
+void RemVideo::on_limpiar_clicked()
+{
+    ui->logTextEdit->setText("");
 }
 
