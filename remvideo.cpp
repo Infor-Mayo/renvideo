@@ -126,10 +126,10 @@ void RemVideo::renameVideosInFolder(const QString& folderPath, int seasonNumber,
                 }
             }
 
-            QString finalName = QString("capítulo %1x%2 (%3).%4")
+            QString finalName = QString("%1 S%2E%3.%4")
+                                    .arg(!customName.isEmpty() ? customName : fileInfo.dir().dirName())
                                     .arg(detectedSeason, 2, '0')
                                     .arg(chapterNumber, 2, '0')
-                                    .arg(!customName.isEmpty() ? customName : fileInfo.dir().dirName())
                                     .arg(fileInfo.suffix());
 
             QString newFilePath = fileInfo.absolutePath() + "/" + finalName;

@@ -4850,3 +4850,13 @@
 2024-09-19 19:42:41 - -r- capítulo 23x05 (tr).mp4 -> 23 f 5 i 9.mp4
 2024-09-19 19:42:41 - File not found for restoration: capítulo 23x05 (tr).mp4
 2024-09-19 19:42:41 - File not found for restoration: capítulo 01x34 (frf).mp4
+2024-09-24 20:26:43 - -r- frf S01E34.mp4 -> 34 hg.mp4
+2024-09-24 20:26:43 - -r- g S01E06.mp4 -> wew 6.mp4
+2024-09-24 20:26:43 - File not found for restoration: g S01E06.mp4
+2024-09-24 20:26:43 - File not found for restoration: frf S01E34.mp4
+2024-09-24 20:26:43 - -r- r S01E07.mp4 -> rt 7.mp4
+2024-09-24 20:26:43 - File not found for restoration: r S01E07.mp4
+2024-09-24 20:26:43 - File not found for restoration: frf S01E34.mp4
+2024-09-24 20:26:43 - -r- tr S23E05.mp4 -> 23 f 5 i 9.mp4
+2024-09-24 20:26:43 - File not found for restoration: tr S23E05.mp4
+2024-09-24 20:26:43 - File not found for restoration: frf S01E34.mp4
